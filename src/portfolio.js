@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -26,8 +26,7 @@ const greeting = {
     "MBA | Business Analytics & Data Science | Azure Certified (AZ-900 & DP-900) | AI & Workflow Automation",
   description:
     "I am a data-focused professional specializing in analytics, combining hands-on skills in Python, SQL, and Tableau with a strong foundation in statistics and business logic. I excel at decoding complex data to uncover consumer behavior and business performance trends, translating insights into actionable strategies that drive smart decisions. My approach is defined by a disciplined mindset, clear thinking, and a results-oriented focus. Outside of work, I enjoy swimming and gardening to unwind and reconnect with nature.",
-  resumeLink:
-    "",
+  resumeLink: "",
   portfolio_repository: "https://github.com/bodhisattwai/personal_portfolio",
   githubProfile: "https://github.com/bodhisattwai",
 };
@@ -290,7 +289,7 @@ const certifications = {
       color_code: "#1F70C199",
     },
     {
-      title: "Ethics in the Age of Generative AI", 
+      title: "Ethics in the Age of Generative AI",
       subtitle: "- Professional Certification",
       logo_path: "custom_logos/microsoft_logo.jpg",
       certificate_link: "",
@@ -319,39 +318,39 @@ const experience = {
     {
       title: "Internships",
       experiences: [
-    {
-      title: "Management Intern",
-      company: "Apeejay Surrendra Group",
-      company_url: "https://www.apeejay.com/",
-      logo_path: "custom_logos/apeejay.jpg",
-      duration: "Apr 2025 – Jun 2025 (3 months)",
-      location: "Kolkata, West Bengal, India",
-      description:
-        "Engineered a Full-Stack AI Insurance Advisor using HTML/JS, FastAPI, and a fine-tuned Llama 3 model. Reduced persona-classification errors by 20% through model optimization. Deployed serverless AI pipeline via Hugging Face Endpoints and Netlify Serverless Functions. Translated AI insights into sales strategies to improve targeting and policy conversions.",
-      color: "#000000",
-    },
-    {
-      title: "Network Intern",
-      company: "Bokaro Steel Limited, SAIL",
-      company_url: "https://sail.co.in/",
-      logo_path: "custom_logos/sail.png",
-      duration: "Jul 2022 – Aug 2022 (2 months)",
-      location: "Bokaro, Jharkhand, India",
-      description:
-        "Configured SNMP traps across 50+ network devices, boosting voice network efficiency by 20%. Developed Zabbix and PRTG performance dashboards to reduce incident response time. Analyzed network logs and fault data to enhance system reliability and minimize downtime.",
-      color: "#00549F",
-    },
-    {
-      title: "Data Security Intern",
-      company: "Haryana Police",
-      company_url: "https://haryanapolice.gov.in/",
-      logo_path: "custom_logos/haryana_police.png",
-      duration: "Jun 2021 – Jul 2021 (2 months)",
-      location: "India",
-      description:
-        "Analyzed and documented 100+ cybercrime cases with the GPCSSI Cybersecurity Division. Studied cybercrime investigations, GDPR compliance, and dark web threat analysis. Gained exposure to ethical hacking techniques (OSINT, network scanning, OWASP Top 10).",
-      color: "#FF0000",
-    },
+        {
+          title: "Management Intern",
+          company: "Apeejay Surrendra Group",
+          company_url: "https://www.apeejay.com/",
+          logo_path: "custom_logos/apeejay.jpg",
+          duration: "Apr 2025 – Jun 2025 (3 months)",
+          location: "Kolkata, West Bengal, India",
+          description:
+            "Engineered a Full-Stack AI Insurance Advisor using HTML/JS, FastAPI, and a fine-tuned Llama 3 model. Reduced persona-classification errors by 20% through model optimization. Deployed serverless AI pipeline via Hugging Face Endpoints and Netlify Serverless Functions. Translated AI insights into sales strategies to improve targeting and policy conversions.",
+          color: "#000000",
+        },
+        {
+          title: "Network Intern",
+          company: "Bokaro Steel Limited, SAIL",
+          company_url: "https://sail.co.in/",
+          logo_path: "custom_logos/sail.png",
+          duration: "Jul 2022 – Aug 2022 (2 months)",
+          location: "Bokaro, Jharkhand, India",
+          description:
+            "Configured SNMP traps across 50+ network devices, boosting voice network efficiency by 20%. Developed Zabbix and PRTG performance dashboards to reduce incident response time. Analyzed network logs and fault data to enhance system reliability and minimize downtime.",
+          color: "#00549F",
+        },
+        {
+          title: "Data Security Intern",
+          company: "Haryana Police",
+          company_url: "https://haryanapolice.gov.in/",
+          logo_path: "custom_logos/haryana_police.png",
+          duration: "Jun 2021 – Jul 2021 (2 months)",
+          location: "India",
+          description:
+            "Analyzed and documented 100+ cybercrime cases with the GPCSSI Cybersecurity Division. Studied cybercrime investigations, GDPR compliance, and dark web threat analysis. Gained exposure to ethical hacking techniques (OSINT, network scanning, OWASP Top 10).",
+          color: "#FF0000",
+        },
       ],
     },
   ],
@@ -375,12 +374,16 @@ const publications = {
   data: [
     {
       id: "sustainable-economic-growth-study",
-      name: "An Empirical Study on U-shaped relationship between Sustainable Economic Growth and Human Capital Development",
+      name:
+        "An Empirical Study on U-shaped relationship between Sustainable Economic Growth and Human Capital Development",
       createdAt: "2025-03-03T00:00:00Z",
-      description: "This study examines the World Bank's Human Capital Index and six-year GDP growth data across global economies, revealing a U-shaped relationship between human capital and growth. Advanced economies (0–3% growth): Human capital supports stability, not rapid expansion. Emerging economies (>5% growth): Human capital fuels productivity and growth. Transitional economies (3–5% growth): Growth often comes from resources or industry, not human capital. The takeaway: Human capital is a strategic lever, not a one-size-fits-all solution. Economic policies should match each country's development stage to unlock sustainable growth.",
-      journal: "International Journal of All Research Education and Scientific Methods (IJARESM)",
+      description:
+        "This study examines the World Bank's Human Capital Index and six-year GDP growth data across global economies, revealing a U-shaped relationship between human capital and growth. Advanced economies (0–3% growth): Human capital supports stability, not rapid expansion. Emerging economies (>5% growth): Human capital fuels productivity and growth. Transitional economies (3–5% growth): Growth often comes from resources or industry, not human capital. The takeaway: Human capital is a strategic lever, not a one-size-fits-all solution. Economic policies should match each country's development stage to unlock sustainable growth.",
+      journal:
+        "International Journal of All Research Education and Scientific Methods (IJARESM)",
       publishedDate: "March 3, 2025",
-      url: "https://www.ijaresm.com/uploaded_files/document_file/Dr_Sayantani_Roy_Choudhury19uFe.pdf",
+      url:
+        "https://www.ijaresm.com/uploaded_files/document_file/Dr_Sayantani_Roy_Choudhury19uFe.pdf",
     },
   ],
 };
